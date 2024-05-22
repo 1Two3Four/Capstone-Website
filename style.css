@@ -9,4 +9,13 @@ body {
     color:rgb(255, 255, 255);
     margin-left: 20px;
     /*background: linear-gradient(blue, yellow);*/
+    text-align: center;
+  }
+
+  h2{
+    text-align: center;
+  }
+
+  h4{
+    text-align: center;
   }
