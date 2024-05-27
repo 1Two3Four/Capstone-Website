@@ -1,8 +1,16 @@
+@keyframes Text-Appearing{
+	0% {opacity:0; color:rgb(255, 255, 255)}
+	100%{opacity:1; linear-gradient(to right, #b88746 0%, #fdf5a6 100%);color:#000000;}
+}
+
+
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #000000;
     overflow: hidden;
     font-family: sans-serif;
+    animation-name: Text-Appearing;
+    animation-duration: 2.5s;
   }
   
 /* Style the links inside the navigation bar */
@@ -14,6 +22,9 @@
     text-decoration: none;
     font-size: 20px;
 }
+
+
+
 
 /* Change the color of links on hover */
 .topnav a:hover {
@@ -28,14 +39,22 @@
 }
 
 body {
-    background: #e5e5e5;
+    background: #3d405b;
+    padding:15px;
+
     }
+
+
 
 img {
         padding-top: 50px;
+        padding-bottom: 50px;
         border-radius: 50%;
-        width: 500px;
-        height: 500px;
+        max-width: 500px;
+        max-height: 500px;
+        text-align: center;
+        animation-name:Text-Appearing;
+        animation-duration: 8s;
       }
 
 
@@ -53,3 +72,40 @@ h1 {
         margin-right: auto;
         width: 50%;
       }
+
+
+.picture {
+        display: table; margin: 0 auto;
+        margin: 0 2px;
+        display: inline-block
+
+
+}
+
+#container {
+    background-color: #f4f1de;
+    border:4px solid #000000;
+    margin: auto;
+    overflow: hidden;
+    padding:15px;
+    min-height: 90%;
+    min-width: 96.7%;
+    position:fixed;
+    animation-name: Text-Appearing;
+    animation-duration: 3s;
+
+
+
+
+}
+
+.Textstuff {
+    animation-name:Text-Appearing;
+    animation-duration: 8s;
+
+}
+
+h1 {
+    margin-left: 10px;
+
+}
