@@ -64,7 +64,7 @@ img {
         max-height: 500px;
         text-align: center;
         animation-name:Text-Appearing;
-        animation-duration: 8s;
+        animation-duration: 5s;
       }
 
 
@@ -115,12 +115,17 @@ h1 {
 
 .Textstuff {
     animation-name:Text-Appearing;
-    animation-duration: 8s;
+    animation-duration: 5s;
 
 }
 
 h1 {
     margin-left: 10px;
+
+}
+
+p{
+    word-wrap: break-word;
 
 }
 
